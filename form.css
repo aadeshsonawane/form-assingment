@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.box1{
+    border: 1px solid black;
+    width: 50%;
+    height: 80vh;
+    margin: 10px auto;
+}
+.mainDiv{
+    border: 1px solid green;
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+}
+.mainDiv h1{
+    margin: 40px 0px;
+}
+.mainDiv form input{
+    width: 100%;
+}
+.mainDiv form label{
+    font-weight: 800;
+}
+.mainDiv form p{
+    text-align: center;
+    margin: 2rem;
+}
+
+/* Assingment 2 css */
+
+.box2{
+    border: 1px solid rgb(7, 10, 221);
+    width: 80%;
+    margin: 20px auto;
+    height: auto;
+    background-color: #4070f4;
+}
+.box2 .main2{
+    border: 1px solid blueviolet;
+    width: 80%;
+    margin: 40px auto;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.main2 h2{
+    margin-left:10px;
+    margin: 20px 1px;
+}
+
+.main2 .cardDiv{
+    border: 1px solid red;
+    width: 100%;
+    margin: 1px auto;
+    height: 310px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main2 .cardDiv .cards{
+    border: 1px solid rgb(41, 61, 11);
+    width: 30%;
+    height: 100%;
+
+}
+.cards input{
+    width: 100%;
+    padding-left: 5px;
+}
+.cards label{
+    font-weight: 400;
+    
+}
+
+form button{
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: none;
+    background-color: #4070f4;
+    padding: 5px 1px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+}
+button div{
+    position: absolute;
+    top: 5px;
+    right: 50px;
+}
+
+/* task 3 */
+.task3{
+    border: 1px solid black;
+    width: 70%;
+    height: auto;
+    margin: 10px auto;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+.task3 .task3Div{
+    border: 1px solid rgb(62, 99, 6);
+    width: 80%;
+    height: 95%;
+    margin: 30px auto;
+    display: flex;
+    gap: 30px;
+    border-radius: 5%;
+    background-color: white;
+}
+.box1Div, .box2Div{
+    border: 100%;
+    width: 45%;
+    border: 1px solid rgb(0, 60, 255);
+    height: 400px;
+}
+.box1Div{
+    border-radius: 5% 40% 30% 5%;
+    background-color:#004754;
+}
+.box1Div .leftDiv{
+    border: 1px solid blue;
+    width: 70%;
+    height: 200px;
+    margin: 8rem auto;
+    text-align: center;
+    color: white;
+
+}
+.leftDiv button{
+    border: 1px solid white;
+    background: none;
+    padding: 5px 2rem;
+    color: white;
+    font-weight: 800;
+}
+.leftDiv button:hover{
+    background-color: #bebd00;
+    color:black
+}
+
+.box2Div .rightDiv{
+    border: 1px solid rgb(243, 141, 7);
+    width: 90%;
+    margin:20px auto;
+    height: 380px;
+    text-align: center;
+}
+
+.rightDiv div{
+    border: 1px solid red;
+    height: 48%;
+}
+.rightDiv div h1{
+    margin: 15px;
+}
+
+.rightDiv .formDiv{
+    border: 1px solid goldenrod;
+    text-align: start;
+    height: 12rem;
+}
+
+.formDiv input{
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 100%;
+    height: 2rem;
+    color: rgb(19, 18, 18);
+    background-color: rgb(168, 165, 165);
+    border: none;
+}
+.formDiv .sign{
+    background-color: #bebd00;
+    border-radius: 0px ;
+    margin-left: 30%;
+    width: 7rem;
+    margin-top: 10px;
+}
+
+.rightDiv a{
+    border: 1px solid black;
+    margin: 20px 5px;
+    border-radius: 5px;
+    padding: 5px;
+    color: blue;
+    
+}
+
+/* Task 4 */
+.task4{
+    border: 1px solid black;
+    width: 60%;
+    height: 52rem;
+    margin: 10px auto;
+    background: linear-gradient(0deg,rgba(133, 34, 195, 1) 0%, rgba(253, 239, 45, 1) 100%);
+}
+.task4Div{
+    border: 1px solid red;
+    width: 89%;
+    margin: 30px auto;
+    height: 50rem;
+}
+.task4Div h1{
+    text-align: center;
+    margin: 20px 1px;
+}
+.task4Div sup{
+    color: red;
+}
+.task4Div label{
+    font-weight: 800;
+    font-size: larger;
+
+}
+.task4Div input{
+    height: 2rem;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 15px;
+}
+.task4Div #firtN{
+    width: 360px;
+}
+
+.task4Div .lastDiv{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0px auto;
+    height: 11rem;
+    position: relative;
+}
+.lastDiv .lBox{
+    border: 1px solid yellow;
+    width: 80%;
+    position: relative;
+    background-color: white;
+}
+.lBox .term{
+    border: 1px solid rgb(255, 0, 200);
+    width: 25%;
+    height: 70%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: small;
+}
+.term img{
+    width: 100%;
+    height: 100%;
+}
+.lBox #check{
+     height: 2rem;
+    margin-top: 26px;
+    margin-right: 10px;
+    width: 25px;
+    padding: 20px;
+}
+.lBox label{
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 30px;
+
+}
+.lastDiv button{
+    border: none;
+    border-radius:0px;
+    width: 6rem;
+    height:40px;
+    position: absolute;
+    left:30%;
+    display: flex;
+    position: relative;
+    background-color: #104cd3;
+
+    
+
+}
+.lastDiv button .one{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    rotate:45deg;
+
+}
+.lastDiv button .two{
+    /* border: 1px solid rgb(223, 9, 9); */
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+
+
+}
