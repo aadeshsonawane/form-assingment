@@ -12,7 +12,7 @@
     margin: 10px auto;
 }
 .mainDiv{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 80%;
     height: auto;
     margin: 1rem auto;
@@ -41,11 +41,11 @@
     background-color: #4070f4;
 }
 .box2 .main2{
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     width: 80%;
     margin: 40px auto;
     height: auto;
-    background-color: white;
+    background: linear-gradient(0deg,rgba(229, 218, 235, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     border-radius: 10px;
 }
 .main2 h2{
@@ -54,7 +54,7 @@
 }
 
 .main2 .cardDiv{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     margin: 1px auto;
     height: 310px;
@@ -63,7 +63,7 @@
     
 }
 .main2 .cardDiv .cards{
-    border: 1px solid rgb(41, 61, 11);
+    /* border: 1px solid rgb(41, 61, 11); */
     width: 30%;
     height: 100%;
 
@@ -105,7 +105,7 @@ button div{
     background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 .task3 .task3Div{
-    border: 1px solid rgb(62, 99, 6);
+    /* border: 1px solid rgb(62, 99, 6); */
     width: 80%;
     height: 95%;
     margin: 30px auto;
@@ -117,7 +117,7 @@ button div{
 .box1Div, .box2Div{
     border: 100%;
     width: 45%;
-    border: 1px solid rgb(0, 60, 255);
+    /* border: 1px solid rgb(0, 60, 255); */
     height: 400px;
 }
 .box1Div{
@@ -125,7 +125,7 @@ button div{
     background-color:#004754;
 }
 .box1Div .leftDiv{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 70%;
     height: 200px;
     margin: 8rem auto;
@@ -134,7 +134,7 @@ button div{
 
 }
 .leftDiv button{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background: none;
     padding: 5px 2rem;
     color: white;
@@ -146,7 +146,7 @@ button div{
 }
 
 .box2Div .rightDiv{
-    border: 1px solid rgb(243, 141, 7);
+    /* border: 1px solid rgb(243, 141, 7); */
     width: 90%;
     margin:20px auto;
     height: 380px;
@@ -154,7 +154,7 @@ button div{
 }
 
 .rightDiv div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 48%;
 }
 .rightDiv div h1{
@@ -162,7 +162,7 @@ button div{
 }
 
 .rightDiv .formDiv{
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
     text-align: start;
     height: 12rem;
 }
@@ -177,7 +177,7 @@ button div{
     border: none;
 }
 .formDiv .sign{
-    background-color: #bebd00;
+    /* background-color: #bebd00; */
     border-radius: 0px ;
     margin-left: 30%;
     width: 7rem;
@@ -195,14 +195,14 @@ button div{
 
 /* Task 4 */
 .task4{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 60%;
     height: 52rem;
     margin: 10px auto;
     background: linear-gradient(0deg,rgba(133, 34, 195, 1) 0%, rgba(253, 239, 45, 1) 100%);
 }
 .task4Div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 89%;
     margin: 30px auto;
     height: 50rem;
@@ -230,20 +230,20 @@ button div{
 }
 
 .task4Div .lastDiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     margin: 0px auto;
     height: 11rem;
     position: relative;
 }
 .lastDiv .lBox{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 80%;
     position: relative;
     background-color: white;
 }
 .lBox .term{
-    border: 1px solid rgb(255, 0, 200);
+    /* border: 1px solid rgb(255, 0, 200); */
     width: 25%;
     height: 70%;
     position: absolute;
@@ -261,6 +261,8 @@ button div{
     margin-right: 10px;
     width: 25px;
     padding: 20px;
+    border-radius: 50%;
+
 }
 .lBox label{
     font-weight: 500;
@@ -303,4 +305,107 @@ button div{
     top: 15px;
 
 
+}
+/* task5 css */
+.task5{
+    border: 1px solid black;
+    width: 35%;
+    margin: 10px auto;
+    height: 34rem;
+    background-color: #86a2f08e;
+}
+.task5 h1{
+    text-align: center;
+
+}
+.task5 .task5Div{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 2px auto;
+    height: 35rem;
+}
+.task5Div .firstDiv{
+    border: 1px solid rgba(3, 2, 2, 0.363);
+    width: 92%;
+    border-left: none;
+    border-right: none;
+    margin: 0px auto;
+    height: 5rem;
+    text-align: center;
+    font-size: larger;
+    margin-right: 75px;
+
+}
+.firstDiv input, .rightDiv label{
+    margin-top: 30px;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.task5Div .fomrDiv{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 30rem;
+
+}
+.fomrDiv form .div1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 3rem;
+    margin-top: 20px; display: flex;
+}
+
+form div .ic{
+    width: 50px;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color:#3a57af;
+    color: white;
+}
+.ic i{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+form div .in{
+     /* border: 1px solid green; */
+    width: 80%;
+}
+.in input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: larger;
+}
+.fomrDiv form{
+    position: relative;
+}
+form .text{
+    /* border: 1px solid black; */
+    height: 5rem;
+    position: absolute;
+    width: 40%;
+    left: 60px;
+    margin-top: 10px;
+}
+form .but{
+  /* border: 1px solid black; */
+    height: 5rem;
+    position: absolute;
+    width: 30%;
+    right: 50px;
+    margin-top: 10px;
+}
+.but button{
+    width: 90px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.text a{
+    color: blue;
+} 
+.text p{
+    margin-top: 10px;
 }
